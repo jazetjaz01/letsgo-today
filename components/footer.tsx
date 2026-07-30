@@ -2,21 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 const links = [
-  {
-    title: "About",
-    href: "/#about",
-  },
+ 
   {
     title: "Contact",
-    href: "/#contact",
+    href: "/contact",
   },
   {
-    title: "Terms of Service",
-    href: "/#terms",
+    title: "Conditions Générales",
+    href: "/conditions",
   },
   {
-    title: "Privacy Policy",
-    href: "/#privacy",
+    title: "Vie privée",
+    href: "/vie-privee",
   },
 ];
 
@@ -27,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between gap-4 px-2 pt-3 pb-5 sm:flex-row">
           <Link className="flex items-center gap-2" href="/">
             <Image src="/logo-100.svg" alt="Logo Let's Go" width={24} height={24} />
-            <span className="font-semibold text-lg text-primary">Letsgo today</span>
+            <span className="font-semibold text-lg text-primary">Letsgo</span>
           </Link>
 
           <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-medium text-sm">
@@ -40,8 +37,8 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse items-center justify-between gap-4 px-2 pt-4 pb-2 sm:flex-row">
           <p className="font-medium text-muted-foreground text-sm">
-            Copyright &copy; {new Date().getFullYear()} Letsgo today. Application de covoiturage
-            reserved.
+            Copyright &copy; {new Date().getFullYear()} Letsgo . Application de covoiturage
+            
           </p>
 {/* Desktop Menu 
           <div className="flex items-center gap-4">

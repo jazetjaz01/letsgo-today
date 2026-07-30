@@ -6,7 +6,7 @@ import { NavigationSheet } from "@/components/navigation-sheet";
 
 const Navbar = () => {
   return (
-    <nav className="h-16 border-b bg-background">
+    <nav className="h-16 bg-background">
       <div className="mx-auto flex h-full max-w-(--breakpoint-xl) items-center justify-between px-4 sm:px-6 lg:px-8 ">
         
         {/* Conteneur pour aligner le logo et le texte sur la même ligne */}
@@ -14,11 +14,11 @@ const Navbar = () => {
 <Link className="flex items-center gap-4" href="/">
   <Logo />
   <span className="font-semibold text-lg text-primary">
-    letsgo today
+    letsgo 
   </span>
 </Link>
 
-        {/* Desktop Menu */}
+        {/* Desktop Menu
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
@@ -27,11 +27,10 @@ const Navbar = () => {
           </Button>
           <Button>Get Started</Button>
 
-          {/* Mobile Menu */}
           <div className="md:hidden">
             <NavigationSheet />
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
