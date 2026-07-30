@@ -1,4 +1,4 @@
-import {  Wheat } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
@@ -26,8 +26,8 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-2xl divide-y">
         <div className="flex flex-col items-center justify-between gap-4 px-2 pt-3 pb-5 sm:flex-row">
           <Link className="flex items-center gap-2" href="/">
-            <Wheat />
-            <span className="font-medium text-xl">Bloxxee</span>
+            <Image src="/logo-100.svg" alt="Logo Let's Go" width={24} height={24} />
+            <span className="font-semibold text-lg text-primary">Letsgo today</span>
           </Link>
 
           <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-medium text-sm">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse items-center justify-between gap-4 px-2 pt-4 pb-2 sm:flex-row">
           <p className="font-medium text-muted-foreground text-sm">
-            Copyright &copy; {new Date().getFullYear()} Bloxxee. All rights
+            Copyright &copy; {new Date().getFullYear()} Letsgo today. Application de covoiturage
             reserved.
           </p>
 {/* Desktop Menu 

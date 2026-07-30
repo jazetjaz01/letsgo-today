@@ -10,10 +10,10 @@ const Navbar = () => {
         
         {/* Conteneur pour aligner le logo et le texte sur la même ligne */}
        {/* Conteneur pour rapprocher le logo et le texte */}
-<div className="flex items-center gap-2  ">
+<div className="flex items-center gap-4  ">
   <Logo />
   <span className="font-semibold text-lg text-primary">
-    letsgo
+    letsgo today
   </span>
 </div>
 
