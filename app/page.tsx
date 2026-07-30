@@ -18,10 +18,10 @@ export default function Home() {
         />
 
         <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+          <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             Covoiturez  avec {SITE_NAME}
           </h1>
-          <p className="max-w-md text-lg text-muted-foreground">
+          <p className="max-w-md text-lg text-justify">
             Trouvez ou proposez un trajet en quelques clics, partout en France.
             Économisez sur vos déplacements et voyagez à plusieurs, en toute
             simplicité.
@@ -55,14 +55,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-auto mb-20 flex w-full max-w-(--breakpoint-md) flex-col items-center gap-4 px-4 text-center sm:px-6">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full border border-border/30 bg-primary/5 text-primary shadow-xl/2 dark:bg-primary/10">
-          <Percent className="size-7" />
-        </div>
+      <div className="mx-auto mb-20 flex w-full max-w-(--breakpoint-xl) flex-col items-center gap-4 px-4 text-center sm:px-6 ">
+       
         <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
           0% de commission
         </h2>
-        <p className="text-lg text-muted-foreground">
+        <p className="text-lg  text-justify">
           Les plateformes de covoiturage ont peu à peu ajouté des frais qui
           rendent les trajets partagés presque aussi chers qu&apos;un billet
           de train. Chez {SITE_NAME}, le prix que vous fixez est le prix que
