@@ -6,8 +6,16 @@ import { NavigationSheet } from "@/components/navigation-sheet";
 const Navbar = () => {
   return (
     <nav className="h-16 border-b bg-background">
-      <div className="mx-auto flex h-full max-w-(--breakpoint-xl) items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Logo />
+      <div className="mx-auto flex h-full max-w-(--breakpoint-xl) items-center justify-between px-4 sm:px-6 lg:px-8 ">
+        
+        {/* Conteneur pour aligner le logo et le texte sur la même ligne */}
+       {/* Conteneur pour rapprocher le logo et le texte */}
+<div className="flex items-center gap-2  ">
+  <Logo />
+  <span className="font-semibold text-lg text-primary">
+    letsgo
+  </span>
+</div>
 
         {/* Desktop Menu */}
         <NavMenu className="hidden md:block" />

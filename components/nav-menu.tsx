@@ -23,7 +23,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
         <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="#" />}>About</NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="#" />}>Contact Us</NavigationMenuLink>
+        <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="/contact" />}>Contact </NavigationMenuLink>
       </NavigationMenuItem>
     </NavigationMenuList>
   </NavigationMenu>
