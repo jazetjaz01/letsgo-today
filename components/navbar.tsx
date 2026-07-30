@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 import { NavMenu } from "@/components/nav-menu";
@@ -10,12 +11,12 @@ const Navbar = () => {
         
         {/* Conteneur pour aligner le logo et le texte sur la même ligne */}
        {/* Conteneur pour rapprocher le logo et le texte */}
-<div className="flex items-center gap-4  ">
+<Link className="flex items-center gap-4" href="/">
   <Logo />
   <span className="font-semibold text-lg text-primary">
     letsgo today
   </span>
-</div>
+</Link>
 
         {/* Desktop Menu */}
         <NavMenu className="hidden md:block" />

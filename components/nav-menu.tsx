@@ -16,9 +16,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
       <NavigationMenuItem>
         <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="/" />}>Accueil</NavigationMenuLink>
       </NavigationMenuItem>
-      <NavigationMenuItem>
-        <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="/actualite" />}>Blog</NavigationMenuLink>
-      </NavigationMenuItem>
+      
       <NavigationMenuItem>
         <NavigationMenuLink className={navigationMenuTriggerStyle()} render={<Link href="#" />}>Qui sommes nous </NavigationMenuLink>
       </NavigationMenuItem>
