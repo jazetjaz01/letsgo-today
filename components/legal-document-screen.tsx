@@ -26,28 +26,28 @@ export function LegalDocumentScreen({
         <h1 className="font-medium text-3xl text-foreground tracking-tight sm:text-4xl">
           {title}
         </h1>
-        <p className="mt-2 text-muted-foreground text-sm">
+        <p className="mt-2  text-sm">
           Dernière mise à jour : {lastUpdated}
         </p>
-        <p className="mt-6 text-lg text-muted-foreground">{intro}</p>
+        <p className="mt-6 text-lg ">{intro}</p>
       </div>
 
       <div className="mt-10 flex flex-col gap-10">
         {sections.map((section) => (
           <section key={section.title}>
-            <h2 className="font-medium text-foreground text-xl tracking-tight">
+            <h2 className="font-medium  text-xl tracking-tight">
               {section.title}
             </h2>
             <div className="mt-3 flex flex-col gap-3">
               {section.blocks.map((block, index) =>
                 block.type === "text" ? (
-                  <p key={index} className="text-muted-foreground leading-relaxed">
+                  <p key={index} className=" leading-relaxed">
                     {block.content}
                   </p>
                 ) : (
                   <ul
                     key={index}
-                    className="ml-5 list-disc space-y-2 text-muted-foreground leading-relaxed"
+                    className="ml-5 list-disc space-y-2  leading-relaxed"
                   >
                     {block.items.map((item, itemIndex) => (
                       <li key={itemIndex}>{item}</li>
