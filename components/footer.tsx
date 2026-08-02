@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SITE_NAME } from "@/lib/site-config";
 
 const links = [
  
@@ -24,7 +25,7 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between gap-4 px-2 pt-3 pb-5 sm:flex-row">
           <Link className="flex items-center gap-2" href="/">
             <Image src="/logo-100.svg" alt="Logo Let's Go" width={24} height={24} />
-            <span className="font-semibold text-lg text-primary">Letsgo</span>
+            <span className="font-semibold text-lg text-primary">{SITE_NAME}</span>
           </Link>
 
           <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-medium text-sm">
@@ -37,8 +38,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse items-center justify-between gap-4 px-2 pt-4 pb-2 sm:flex-row">
           <p className="font-medium text-muted-foreground text-sm">
-            Copyright &copy; {new Date().getFullYear()} Letsgo . Application de covoiturage
-            
+            Copyright &copy; {new Date().getFullYear()} {SITE_NAME}. Application de covoiturage
           </p>
 {/* Desktop Menu 
           <div className="flex items-center gap-4">

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 import { NavMenu } from "@/components/nav-menu";
 import { NavigationSheet } from "@/components/navigation-sheet";
+import { SITE_NAME } from "@/lib/site-config";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
 <Link className="flex items-center gap-4" href="/">
   <Logo />
   <span className="font-semibold text-lg text-primary">
-    letsgo 
+    {SITE_NAME}
   </span>
 </Link>
 

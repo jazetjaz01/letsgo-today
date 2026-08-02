@@ -12,12 +12,12 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "La présente Politique de protection des données décrit comment la société Merci Immobilier (ci-après l'« Éditeur »), éditrice de l'application Letsgo, collecte, utilise, partage et protège vos données personnelles lorsque vous utilisez l'Application, conformément au Règlement Général sur la Protection des Données (RGPD).",
+          "La présente Politique de protection des données décrit comment la société Merci Immobilier (ci-après l'« Éditeur »), éditrice de l'application Letsgo Today, collecte, utilise, partage et protège vos données personnelles lorsque vous utilisez l'Application, conformément au Règlement Général sur la Protection des Données (RGPD).",
       },
       {
         type: "text",
         content:
-          "Letsgo est une plateforme de mise en relation entre conducteurs et passagers pour des trajets de covoiturage partagés. Elle n'est ni transporteur, ni intermédiaire de paiement : voir à ce titre les Conditions générales d'utilisation.",
+          "Letsgo Today est une plateforme de mise en relation entre conducteurs et passagers pour des trajets de covoiturage partagés. Elle n'est ni transporteur, ni intermédiaire de paiement : voir à ce titre les Conditions générales d'utilisation.",
       },
     ],
   },
@@ -70,7 +70,7 @@ const SECTIONS: LegalDocumentSection[] = [
       },
       {
         type: "text",
-        content: "Letsgo ne vend jamais vos données personnelles à des tiers.",
+        content: "Letsgo Today ne vend jamais vos données personnelles à des tiers.",
       },
     ],
   },

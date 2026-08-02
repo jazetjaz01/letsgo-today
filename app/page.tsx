@@ -10,7 +10,7 @@ export default function Home() {
       <div className="mx-auto flex w-full max-w-(--breakpoint-xl) flex-col items-center gap-10 px-4 py-12 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:py-20">
         <Image
           src="/images/iphone-screen.jpg"
-          alt="Aperçu de l'application letsgo sur smartphone"
+          alt={`Aperçu de l'application ${SITE_NAME} sur smartphone`}
           width={1108}
           height={1268}
           className="h-auto w-full max-w-xs shrink-0 sm:max-w-sm"

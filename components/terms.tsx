@@ -12,7 +12,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "Les présentes Conditions Générales d'Utilisation (ci-après les « CGU ») régissent l'accès et l'utilisation de l'application mobile Letsgo (ci-après l'« Application »), éditée par la société Merci Immobilier, immatriculée et domiciliée au 7 Avenue de Banyuls sur Mer, 66100 Perpignan (ci-après l'« Éditeur »).",
+          "Les présentes Conditions Générales d'Utilisation (ci-après les « CGU ») régissent l'accès et l'utilisation de l'application mobile Letsgo Today (ci-après l'« Application »), éditée par la société Merci Immobilier, immatriculée et domiciliée au 7 Avenue de Banyuls sur Mer, 66100 Perpignan (ci-après l'« Éditeur »).",
       },
       {
         type: "text",
@@ -32,7 +32,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "L'Application Letsgo est éditée par la société Merci Immobilier :",
+          "L'Application Letsgo Today est éditée par la société Merci Immobilier :",
       },
       {
         type: "list",
@@ -64,7 +64,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "4.1. Nature du service : Letsgo met exclusivement en relation des particuliers souhaitant partager un trajet en voiture. Sont strictement exclues toutes prestations de transport collectif par bus, train ou tout autre mode de transport public ou privé rémunéré.",
+          "4.1. Nature du service : Letsgo Today met exclusivement en relation des particuliers souhaitant partager un trajet en voiture. Sont strictement exclues toutes prestations de transport collectif par bus, train ou tout autre mode de transport public ou privé rémunéré.",
       },
       {
         type: "text",
@@ -74,7 +74,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "4.3. Caractère non professionnel du covoiturage : le conducteur s'engage à ne réaliser aucun bénéfice financier par le biais de Letsgo. La participation financière demandée par le conducteur au passager sert exclusivement à couvrir une partie des frais réels du trajet (carburant et péages autoroutiers), conformément à la législation en vigueur sur le covoiturage entre particuliers.",
+          "4.3. Caractère non professionnel du covoiturage : le conducteur s'engage à ne réaliser aucun bénéfice financier par le biais de Letsgo Today. La participation financière demandée par le conducteur au passager sert exclusivement à couvrir une partie des frais réels du trajet (carburant et péages autoroutiers), conformément à la législation en vigueur sur le covoiturage entre particuliers.",
       },
     ],
   },
@@ -84,7 +84,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "5.1. Absence de module de paiement en ligne : l'Application Letsgo ne dispose d'aucun système de paiement électronique intégré (pas de paiement par carte bancaire, pas de portefeuille électronique géré par l'Éditeur).",
+          "5.1. Absence de module de paiement en ligne : l'Application Letsgo Today ne dispose d'aucun système de paiement électronique intégré (pas de paiement par carte bancaire, pas de portefeuille électronique géré par l'Éditeur).",
       },
       {
         type: "text",
@@ -187,7 +187,7 @@ const SECTIONS: LegalDocumentSection[] = [
       {
         type: "text",
         content:
-          "Les données collectées lors de l'inscription et de l'utilisation de l'Application Letsgo sont traitées conformément au Règlement Général sur la Protection des Données (RGPD). L'utilisateur dispose d'un droit d'accès, de rectification et de suppression de ses données personnelles qu'il peut exercer en contactant l'Éditeur à son siège social ou via la rubrique « Nous contacter » de l'Application. Le détail de ces traitements figure dans la Politique de protection des données de l'Application.",
+          "Les données collectées lors de l'inscription et de l'utilisation de l'Application Letsgo Today sont traitées conformément au Règlement Général sur la Protection des Données (RGPD). L'utilisateur dispose d'un droit d'accès, de rectification et de suppression de ses données personnelles qu'il peut exercer en contactant l'Éditeur à son siège social ou via la rubrique « Nous contacter » de l'Application. Le détail de ces traitements figure dans la Politique de protection des données de l'Application.",
       },
     ],
   },

@@ -19,8 +19,7 @@ const values = [
   {
     icon: HeartHandshake,
     title: "Un projet solidaire",
-    description:
-      "letsgo est né d'une conviction : partager un trajet doit rapprocher les gens, pas remplir les caisses d'une plateforme.",
+    description: `${SITE_NAME} est né d'une conviction : partager un trajet doit rapprocher les gens, pas remplir les caisses d'une plateforme.`,
   },
 ];
 
@@ -28,7 +27,7 @@ const About = () => (
   <div className="flex flex-col items-center py-16">
     <div className="text-center">
       <b className="font-medium text-muted-foreground text-sm uppercase tracking-wide">
-        {SITE_NAME} today
+        {SITE_NAME}
       </b>
       <h1 className="mt-3 font-medium text-4xl tracking-tight">
         Qui sommes-nous ?
