@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-2xl divide-y">
         <div className="flex flex-col items-center justify-between gap-4 px-2 pt-3 pb-5 sm:flex-row">
           <Link className="flex items-center gap-2" href="/">
-            <Image src="/logo-100.svg" alt="Logo Let's Go" width={24} height={24} />
+            <Image src="/logo-100.svg" alt="Logo Let's Go covoiturage" width={24} height={24} />
             <span className="font-semibold text-lg text-primary">{SITE_NAME}</span>
           </Link>
 
